@@ -7,11 +7,8 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Snake and Ladder Problem");
-            int playerLocation = 0;
-            Random randam = new Random();
-            int answer = randam.Next(1, 6);
-            playerLocation = playerLocation + answer;
-            Console.WriteLine("Player Location is " + playerLocation);
+            Random random1 = new Random();
+            random1.Play();
             Console.ReadKey();
         }
     }
