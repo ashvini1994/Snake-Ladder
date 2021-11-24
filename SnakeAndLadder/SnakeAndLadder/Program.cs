@@ -6,9 +6,8 @@ namespace SnakeAndLadder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Snake and Ladder Problem");
-            Random random1 = new Random();
-            random1.Play();
+           Random snakeAndLadder1= new Random();
+            snakeAndLadder1.Next();
             Console.ReadKey();
         }
     }
